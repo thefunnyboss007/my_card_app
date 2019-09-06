@@ -30,6 +30,13 @@ class MyCardApp extends StatelessWidget {
                   color: Colors.white,
                 ),
               ),
+              SizedBox(
+                height: 20.0,
+                width: 200.0,
+                child: Divider(
+                  color: Colors.white,
+                ),
+              ),
               Text(
                 'FLUTTER DEVELOPER',
                 style: TextStyle(
