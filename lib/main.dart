@@ -6,9 +6,11 @@ class MyCardApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'My Card App',
       home: Scaffold(
         appBar: AppBar(
+          backgroundColor: Colors.teal.shade900,
           title: Text('My Card'),
         ),
         backgroundColor: Colors.teal,
@@ -34,7 +36,7 @@ class MyCardApp extends StatelessWidget {
                 height: 20.0,
                 width: 200.0,
                 child: Divider(
-                  color: Colors.white,
+                  color: Colors.teal.shade100,
                 ),
               ),
               Text(
